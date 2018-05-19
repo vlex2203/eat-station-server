@@ -6,5 +6,4 @@ const ListSchema = new Schema({
   name: String
 });
 
-
 mongoose.model('lists', ListSchema);
